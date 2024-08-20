@@ -4,6 +4,8 @@ Rust 官方文档: https://www.rust-lang.org/zh-CN/learn
 
 Rust 官方文档中文教程: https://rustwiki.org/
 
+设置国内源 https://rsproxy.cn/
+
 ```shell
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh #安装命令
 
@@ -32,7 +34,7 @@ Cargo.toml : https://course.rs/cargo/reference/manifest.html
 
 cargo new project_name #创建
 
-cargo new -lib project_name #创建一个新的Rust库项目
+cargo new --lib project_name #创建一个新的Rust库项目
 
 cargo build #构建
 
