@@ -26,6 +26,8 @@ rustup show #查看安装版本
 
 Rust 包管理工具Cargo , 底层会隐式的使用rustc进行编译
 
+Cargo.toml : https://course.rs/cargo/reference/manifest.html
+
 ```shell
 
 cargo new project_name #创建
@@ -41,6 +43,14 @@ cargo check #检测
 cargo run #运行
 
 catgo test  #测试
-```
 
-Cargo.toml : https://course.rs/cargo/reference/manifest.html
+cargo install cargo-edit # cargo 插件
+
+cargo add dependency_name@123 # 指定版本
+
+cargo add --dev dev_dependency_name # 添加开发时需要的依赖
+
+cargo add --build bulid_dependency_na-me # 添加构建时需要的依赖
+
+cargo rm dependency_name # 删除库
+```
